@@ -13,6 +13,14 @@ This repository is initialized for local-first development with ChatGPT Codex.
 - Architecture direction: Next.js + TypeScript + PostgreSQL + Docker
 - Application style: modular monolith
 
+## Localhost preparation — 2026-09-18
+
+The repository has been cloned and its requirements reviewed. It currently contains specifications and planning documents, with no runnable application yet.
+
+Review the [onboarding findings and proposed decisions](docs/implementation/ONBOARDING_REVIEW.md), [requirements traceability](docs/implementation/REQUIREMENTS_TRACEABILITY.md), [architecture/domain model](docs/implementation/ARCHITECTURE_PROPOSAL.md), [localhost preparation plan](docs/implementation/LOCALHOST_PLAN.md), and [Phase 1 scope](docs/implementation/PHASE_1_SCOPE.md).
+
+The first proposed build provides authentication, User Management, roles/permissions, approval configuration and audit history at `http://localhost:3000`, backed by PostgreSQL through Docker Compose. Onboarding instructions require review approval before implementation. Docker/WSL setup is also needed on the checked Windows machine. The URL is a target, not a running service.
+
 ## Start here
 
 Codex and developers should read in this order:
